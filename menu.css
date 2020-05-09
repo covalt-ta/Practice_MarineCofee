@@ -1,0 +1,37 @@
+@charset "utf-8";
+.menu {
+	padding: 90px 0 60px; /* 3つの指定の場合、「上」「左右」「下」 */
+	color: #5a5c5f;
+}
+
+.menu-card-wrapper {
+	display: flex;/* 要素を横並びに配置させる これだけだと要素6個全てが横並びになってしまう*/
+	flex-wrap: wrap;/* 各要素の横幅に合わせて、折り返して表示 */
+}
+.menu-card {
+	width: 33%;
+	margin-top: 35px;
+}
+
+.menu-card-inner {
+	padding: 25px 30px;
+	background-color: #dbe0e4;
+	border-radius: 7px;/* 角丸 */
+	box-shadow: 1px 1px 4px #d2d4d6;
+	text-align: center;
+	margin: 0 20px;
+}
+
+.menu-image {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.menu-title {
+	margin-bottom: 8px;
+}
+
+.menu-text {
+	font-size: 14px;
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+.contact {
+	padding: 90px 0 60px;
+	color: #5a5c5f;
+	height: 800px;
+}
+
+.contact-title {
+	margin-bottom: 15px;
+
+}
+
+.contact-form h3 {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #4c4e52;
+}
+
+input, textarea {
+	font-size: 15px; /* 入力欄の文字サイズ */
+	width: 400px;　/* 入力欄の横幅指定 */
+	padding: 2px 4px; /* 入力欄の内側の余白、入力した文字が見やすい */
+}
+
+.submit-button {
+	margin-top: 20px;
+	font-size: 18px;
+	width: 80px;
+}
